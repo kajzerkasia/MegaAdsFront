@@ -1,13 +1,27 @@
+body {
+    background-image: linear-gradient(200deg, #ddd 15%, #eee 82%);
+}
+
 .add-form {
-    width: 800px;
-    margin: 10vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 5vh auto;
+    cursor: default;
+    color: #082567;
+}
+
+.add-form h1 {
+    align-self: center;
 }
 
 .add-form label {
     display: block;
-    margin-top: 20px;
+    font-size: 20px;
     font-weight: bold;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .add-form label small {
@@ -15,14 +29,28 @@
 }
 
 .add-form input, .add-form textarea {
-    width: 100%;
     margin-top: 10px;
     padding: 10px;
+    width: 30vw;
+    font-size: 16px;
+    border: 1px solid #082567;
+    border-radius: 5px;
+}
+
+.add-form textarea {
+    height: 13vh;
+    min-width: 30vw;
+    max-width: 30vw;
+}
+
+.add-form input:hover,
+.add-form textarea:hover
+{
+    cursor: pointer;
 }
 
 .add-form button {
+    width: 17vw;
+    margin-top: 20px;
     padding: 10px;
-    width: 100%;
 }
-
- /*@TODO - style .add-form button to be better.*/
