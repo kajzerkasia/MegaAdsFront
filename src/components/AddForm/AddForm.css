@@ -38,7 +38,7 @@ body {
 }
 
 .add-form textarea {
-    height: 13vh;
+    height: 12vh;
     min-width: 30vw;
     max-width: 30vw;
 }
